@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .text-edge-outline {
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    }
+}
+/* html,
+body {
+    height: 100vh;
+    overflow: hidden;
+} */
+
+/* .parent-scroll-snap {
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+} */
+
+/* .snap-scroll {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    scroll-snap-align: start;
+    perspective: 500px;
+} */
